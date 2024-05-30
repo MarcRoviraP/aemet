@@ -1,0 +1,52 @@
+0104;Almería
+0111;Cádiz
+0114;Córdoba
+0118;Granada
+0121;Huelva
+0123;Jaén
+0129;Málaga
+0141;Sevilla
+0222;Huesca
+0244;Teruel
+0250;Zaragoza
+0333;Asturias
+0407;Balears, Illes
+0535;Palmas, Las
+0538;Santa Cruz de Tenerife
+0639;Cantabria
+0705;Ávila
+0709;Burgos
+0724;León
+0734;Palencia
+0737;Salamanca
+0740;Segovia
+0742;Soria
+0747;Valladolid
+0749;Zamora
+0802;Albacete
+0813;Ciudad Real
+0816;Cuenca
+0819;Guadalajara
+0845;Toledo
+0908;Barcelona
+0917;Girona
+0925;Lleida
+0943;Tarragona
+1003;Alicante/Alacant
+1012;Castellón/Castelló
+1046;Valencia/València
+1106;Badajoz
+1110;Cáceres
+1215;Coruña, A
+1227;Lugo
+1205;Ourense
+1212;Pontevedra
+1315;Madrid
+1419;Murcia
+1522;Navarra
+1624;Araba/Álava
+1630;Bizkaia
+1642;Gipuzkoa
+1723;Rioja, La
+1845;Ceuta
+1951;Melilla
