@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AemetController">
+   <top>
+      <AnchorPane prefHeight="675.0" prefWidth="1910.0" style="-fx-background-color: #074362;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="panelPlantilla" layoutX="44.0" layoutY="107.0" prefHeight="531.0" prefWidth="1805.0" styleClass="anchor" stylesheets="@application.css">
+            
+               <children>
+                  <fx:include fx:id="plantilla_1" prefHeight="500.0" prefWidth="245.0" source="Plantilla.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="70.0" />
+                  <fx:include fx:id="plantilla_2" prefHeight="500.0" prefWidth="245.0" source="Plantilla.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="290.0" AnchorPane.topAnchor="70.0" />
+                  <fx:include fx:id="plantilla_3" prefHeight="500.0" prefWidth="245.0" source="Plantilla.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="550.0" AnchorPane.topAnchor="70.0" />
+                  <fx:include fx:id="plantilla_4" prefHeight="500.0" prefWidth="245.0" source="Plantilla.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="810.0" AnchorPane.topAnchor="70.0" />
+                  <fx:include fx:id="plantilla_5" prefHeight="500.0" prefWidth="245.0" source="Plantilla.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="1070.0" AnchorPane.topAnchor="70.0" />
+                  <fx:include fx:id="plantilla_6" prefHeight="500.0" prefWidth="245.0" source="Plantilla.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="1330.0" AnchorPane.topAnchor="70.0" />
+                  <fx:include fx:id="plantilla_7" prefHeight="500.0" prefWidth="245.0" source="Plantilla.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="1590.0" AnchorPane.topAnchor="70.0" />
+               </children>
+               <padding>
+                  <Insets bottom="-20.0" left="-30.0" top="-70.0" />
+               </padding>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="81.0" prefHeight="632.0" prefWidth="258.0">
+               <children>
+                  <Accordion fx:id="acordeonHoras" prefHeight="613.0" prefWidth="392.0" AnchorPane.topAnchor="-2.0">
+                    <panes>
+                      <TitledPane prefHeight="634.0" prefWidth="1183.0" text="Horas">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="607.0" prefWidth="1597.0">
+                                 <children>
+                                    <ScrollPane fx:id="scrollPane" prefHeight="587.0" prefWidth="495.0">
+                                       <content>
+                                          <AnchorPane maxHeight="2804.0" prefHeight="2390.0" prefWidth="395.0">
+                                             <children>
+                               				  <fx:include fx:id="plantillaHora_1" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0" />
+                                              <fx:include fx:id="plantillaHora_2" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="170.0" />
+                                              <fx:include fx:id="plantillaHora_3" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="270.0" />
+                                              <fx:include fx:id="plantillaHora_4" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="370.0" />
+                                              <fx:include fx:id="plantillaHora_5" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="470.0" />
+                                              <fx:include fx:id="plantillaHora_6" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="570.0" />
+                                              <fx:include fx:id="plantillaHora_7" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="670.0" />
+                                              <fx:include fx:id="plantillaHora_8" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="770.0" />
+                                              <fx:include fx:id="plantillaHora_9" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="870.0" />
+                                              <fx:include fx:id="plantillaHora_10" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="970.0" />
+                                              <fx:include fx:id="plantillaHora_11" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1070.0" />
+                                              <fx:include fx:id="plantillaHora_12" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1170.0" />
+                                              <fx:include fx:id="plantillaHora_13" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1270.0" />
+                                              <fx:include fx:id="plantillaHora_14" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1370.0" />
+                                              <fx:include fx:id="plantillaHora_15" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1470.0" />
+                                              <fx:include fx:id="plantillaHora_16" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1570.0" />
+                                              <fx:include fx:id="plantillaHora_17" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1670.0" />
+                                              <fx:include fx:id="plantillaHora_18" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1770.0" />
+                                              <fx:include fx:id="plantillaHora_19" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1870.0" />
+                                              <fx:include fx:id="plantillaHora_20" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1970.0" />
+                                              <fx:include fx:id="plantillaHora_21" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="2070.0" />
+                                              <fx:include fx:id="plantillaHora_22" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="2170.0" />
+                                              <fx:include fx:id="plantillaHora_23" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="2270.0" />
+                                              <fx:include fx:id="plantillaHora_24" prefHeight="500.0" prefWidth="245.0" source="PlantillaHora.fxml" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="2370.0" />
+                                                     </children>
+                                             <padding>
+                                                <Insets bottom="-2800.0" left="-40.0" top="-75.0" />
+                                             </padding>
+                                          </AnchorPane>
+                                       </content>
+                                    </ScrollPane>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </TitledPane>
+                    </panes>
+                  </Accordion>
+               </children>
+            </AnchorPane>
+            <ImageView fx:id="logoAemet" fitHeight="532.0" fitWidth="1805.0" layoutX="272.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../utilidades/img/aemet-logo.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txtField" focusTraversable="false" layoutX="44.0" layoutY="27.0" AnchorPane.leftAnchor="10" AnchorPane.topAnchor="10" />
+            <Button fx:id="btnPulsa" layoutX="273.0" layoutY="27.0" mnemonicParsing="false" text="Pulsa" visible="false" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10" />
+            <Label fx:id="titulo" alignment="CENTER" layoutX="542.0" layoutY="3.0" prefHeight="29.0" prefWidth="808.0" style="-fx-text-fill: white;" text="Titulo">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="comboCA" editable="true" focusTraversable="false" layoutX="10.0" layoutY="53.0" prefHeight="26.0" prefWidth="235.0" style="-fx-border-color: red;" />
+            <ComboBox fx:id="comboProv" editable="true" focusTraversable="false" layoutX="247.0" layoutY="53.0" prefHeight="26.0" prefWidth="251.0" style="-fx-border-color: green;" />
+            <ComboBox fx:id="comboCiudad" editable="true" focusTraversable="false" layoutX="499.0" layoutY="53.0" prefHeight="26.0" prefWidth="240.0" style="-fx-border-color: blue;" />
+            <ToggleButton fx:id="btnToogle" layoutX="1739.0" layoutY="10.0" mnemonicParsing="false" text="Ver Horas" textAlignment="CENTER" visible="false" />
+            <Accordion fx:id="acordeonDias" layoutX="1549.0" layoutY="8.0" prefHeight="111.0" prefWidth="202.0">
+              <panes>
+                <TitledPane fx:id="panelDiasTit" animated="true" prefWidth="202.0" text="Ultimas Ciudades">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="84.0" prefWidth="238.0" style="-fx-background-color: #074362; -fx-border-color: #074362;">
+                           <children>
+                              <Button fx:id="dia1" layoutX="-2.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="204.0" style="-fx-background-color: #074362; -fx-text-fill: white;" text="Dia1">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Button>
+                              <Button fx:id="dia2" layoutX="-2.0" layoutY="26.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="203.0" style="-fx-background-color: #074362; -fx-text-fill: white;">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Button>
+                              <Button fx:id="dia3" layoutX="-2.0" layoutY="52.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="204.0" style="-fx-background-color: #074362; -fx-text-fill: white;">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Button>
+                           </children>
+                           <padding>
+                              <Insets right="-81.0" top="5.0" />
+                           </padding>
+                        </AnchorPane>
+                  </content>
+                </TitledPane>
+              </panes>
+            </Accordion>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
